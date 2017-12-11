@@ -1,3 +1,3 @@
-#Python projects from Udacity
+# Python projects from Udacity
 
 Projects build from course completed in Undacity
