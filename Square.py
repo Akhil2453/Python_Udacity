@@ -1,19 +1,27 @@
 import turtle
 
-def square():
-	window = turtle.Screen()
-	window.bgcolor("red")
-
-	Max = turtle.Turtle()
-
-	Max.shape("turtle")
-	Max.color("green")
-	Max.speed(3)
-
+def square(akhil):
 	for i in range(4):
-		Max.forward(100)
-		Max.right(90)
+		akhil.forward(100)
+		akhil.right(90)
 
-	window.exitonclick()
+def art():
+	win = turtle.Screen()
+	win.bgcolor("red")
 
-square()
+	judy = turtle.Turtle()
+	judy.shape("turtle")
+	judy.color("green")
+	judy.speed(2)
+
+	square(judy)
+
+	martha = turtle.Turtle()
+	martha.shape("arrow")
+	martha.color("blue")
+	martha.circle(100)
+
+	win.exitonclick()
+
+
+art()
