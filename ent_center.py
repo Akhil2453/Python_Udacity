@@ -12,3 +12,4 @@ avatar = media.Movie("Avatar",
 					 "https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.joblo.com%2Fposters%2Fimages%2Ffull%2Favatar-quad-1.jpg&imgrefurl=http%3A%2F%2Fwww.joblo.com%2Fmovie-posters%2F2009%2Favatar&docid=3MwXGD67OJ7M8M&tbnid=EoAiNDYAUGtX3M%3A&vet=10ahUKEwi8s7GTmYTYAhVHtY8KHXLtBM8QMwjVASgCMAI..i&w=1100&h=825&bih=633&biw=651&q=avatar%20poster&ved=0ahUKEwi8s7GTmYTYAhVHtY8KHXLtBM8QMwjVASgCMAI&iact=mrc&uact=8",
 					 "https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjc-OqnmYTYAhUM6Y8KHaYmBiwQyCkIKDAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcRdxXPV9GNQ&usg=AOvVaw28UmdagwZ7OOiwbgOOa-_f")
 print(avatar.storyline)
+avatar.show_trailer()
