@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
 						"A story of a boy and his toys that come to life",
@@ -21,3 +22,6 @@ avengers = media.Movie("Avengers: Infinity Wars",
 #avatar.show_trailer()
 
 #avengers.show_trailer()
+
+movies = [toy_story, avatar, avengers]
+fresh_tomatoes.open_movies_page(movies)
